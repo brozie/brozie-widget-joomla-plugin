@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<install version="1.5" type="plugin" group="system" method="upgrade">
+<extension version="3.0" type="plugin" group="system" method="upgrade">
 	<name>Brozie Free Chat</name>
 	<author>brozie.com</author>
 	<creationDate>Apr 2013</creationDate>
@@ -17,7 +17,7 @@
 		<language tag="en-GB">language/en-GB/en-GB.plg_system_broziefreechat.sys.ini</language>
 		<language tag="hu-HU">language/hu-HU/hu-HU.plg_system_broziefreechat.ini</language>
 		<language tag="hu-HU">language/hu-HU/hu-HU.plg_system_broziefreechat.sys.ini</language>		
-	</languages>	
+	</languages>
 	<config>	
 		<fields name="params">
 			<fieldset name="basic">
@@ -66,4 +66,4 @@
 				<option	value="br">PLG_BROZIEFREECHAT_BR</option>				
 		</param>				
 	</params>	
-</install>
+</extension>
