@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="1.5" type="plugin" group="system" method="upgrade">
+	<name>Brozie Free Chat</name>
+	<author>brozie.com</author>
+	<creationDate>Apr 2013</creationDate>
+	<copyright>Copyright (C) Brozie - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>developers.brozie.com</authorEmail>
+	<authorUrl>www.brozie.com</authorUrl>
+	<version>1.0</version>
+	<description>PLG_BROZIEFREECHAT_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="broziefreechat">broziefreechat.php</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_broziefreechat.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.plg_system_broziefreechat.sys.ini</language>
+		<language tag="hu-HU">language/hu-HU/hu-HU.plg_system_broziefreechat.ini</language>
+		<language tag="hu-HU">language/hu-HU/hu-HU.plg_system_broziefreechat.sys.ini</language>		
+	</languages>	
+	<config>	
+		<fields name="params">
+			<fieldset name="basic">
+				<field	name="colorscheme" type="list"
+					default=""
+					description="PLG_BROZIEFREECHAT_FIELD_COLORSCHEME_DESC"
+					label="PLG_BROZIEFREECHAT_FIELD_COLORSCHEME_LABEL">
+						<option value="">PLG_BROZIEFREECHAT_DEFAULT</option>
+						<option	value="light">PLG_BROZIEFREECHAT_LIGHT</option>
+						<option	value="dark">PLG_BROZIEFREECHAT_DARK</option>				
+				</field>
+				<field name="width" type="text" default="675" label="PLG_BROZIEFREECHAT_FIELD_WIDTH_LABEL" description="PLG_BROZIEFREECHAT_FIELD_WIDTH_DESC" />
+				<field name="height" type="text" default="300" label="PLG_BROZIEFREECHAT_FIELD_HEIGHT_LABEL" description="PLG_BROZIEFREECHAT_FIELD_HEIGHT_DESC"  />
+				<field	name="direction" type="list"
+					default=""
+					description="PLG_BROZIEFREECHAT_FIELD_DIRECTION_DESC"
+					label="PLG_BROZIEFREECHAT_FIELD_DIRECTION_LABEL">
+						<option value="">PLG_BROZIEFREECHAT_DEFAULT</option>
+						<option	value="tl">PLG_BROZIEFREECHAT_TL</option>
+						<option	value="tr">PLG_BROZIEFREECHAT_TR</option>				
+						<option	value="bl">PLG_BROZIEFREECHAT_BL</option>				
+						<option	value="br">PLG_BROZIEFREECHAT_BR</option>				
+				</field>				
+			</fieldset>
+		</fields>	
+	</config>
+	<params name="basic">
+		<param	name="colorscheme" type="list"
+			default=""
+			description="PLG_BROZIEFREECHAT_FIELD_COLORSCHEME_DESC"
+			label="PLG_BROZIEFREECHAT_FIELD_COLORSCHEME_LABEL">
+				<option value="">PLG_BROZIEFREECHAT_DEFAULT</option>
+				<option	value="light">PLG_BROZIEFREECHAT_LIGHT</option>
+				<option	value="dark">PLG_BROZIEFREECHAT_DARK</option>				
+		</param>
+		<param name="width" type="text" default="675" label="PLG_BROZIEFREECHAT_FIELD_WIDTH_LABEL" description="PLG_BROZIEFREECHAT_FIELD_WIDTH_DESC" />
+		<param name="height" type="text" default="300" label="PLG_BROZIEFREECHAT_FIELD_HEIGHT_LABEL" description="PLG_BROZIEFREECHAT_FIELD_HEIGHT_DESC"  />
+		<param	name="direction" type="list"
+			default=""
+			description="PLG_BROZIEFREECHAT_FIELD_DIRECTION_DESC"
+			label="PLG_BROZIEFREECHAT_FIELD_DIRECTION_LABEL">
+				<option value="">PLG_BROZIEFREECHAT_DEFAULT</option>
+				<option	value="tl">PLG_BROZIEFREECHAT_TL</option>
+				<option	value="tr">PLG_BROZIEFREECHAT_TR</option>				
+				<option	value="bl">PLG_BROZIEFREECHAT_BL</option>				
+				<option	value="br">PLG_BROZIEFREECHAT_BR</option>				
+		</param>				
+	</params>	
+</install>
