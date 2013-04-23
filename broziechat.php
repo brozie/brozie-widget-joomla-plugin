@@ -5,7 +5,7 @@ defined( '_JEXEC' ) or die( 'Restricted access' );
 
 jimport( 'joomla.plugin.plugin' );
 
-class  plgSystemBroziefreechat extends JPlugin {
+class  plgSystemBroziechat extends JPlugin {
 
 	function onAfterRender() {
 	
