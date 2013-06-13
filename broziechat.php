@@ -1,5 +1,15 @@
 <?php
 
+/*------------------------------------------------------------------------
+# plg_broziechat - Brozie Chat
+# ------------------------------------------------------------------------
+# author    brozie.com
+# copyright Copyright (C) Brozie - All rights reserved.
+# @license - http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL
+# Websites: http://www.brozie.com
+# Technical Support:  Forum - http://developers.brozie.com
+-------------------------------------------------------------------------*/
+
 // no direct access
 defined( '_JEXEC' ) or die( 'Restricted access' );
 
